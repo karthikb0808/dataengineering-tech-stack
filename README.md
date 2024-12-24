@@ -91,15 +91,6 @@ This repository provides a comprehensive environment to learn and practice moder
    ```bash
    git clone https://github.com/username/dataengineering-tech-stack.git
    cd dataengineering-tech-stack
-
----
-
-## How to Run
-
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/username/dataengineering-tech-stack.git
-   cd dataengineering-tech-stack
    ```
 2. **Set Environment Variables**
     - Fill in your configurations in .env/airflow.env, .env/minio.env, .env/postgres.env, etc.
