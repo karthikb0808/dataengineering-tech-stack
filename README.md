@@ -93,7 +93,7 @@ This repository provides a comprehensive environment to learn and practice moder
    cd dataengineering-tech-stack
    ```
 2. **Set Environment Variables**
-    - Fill in your configurations in .env/airflow.env, .env/minio.env, .env/postgres.env, etc.
+  - Fill in your configurations in .env/airflow.env, .env/minio.env, .env/postgres.env, etc.
 
 3. **Build & Start Services**
     ``` bash
@@ -101,9 +101,9 @@ This repository provides a comprehensive environment to learn and practice moder
     ```
 
 4. **Access Servies**
-   - MinIO Console: http://localhost:9001
-   - Airflow Web UI: http://localhost:8081
-   - PostgreSQL: localhost:5432
-   - Nessie: http://localhost:19120
-   - Trino: http://localhost:8080
-   - Superset: http://localhost:8088
+ - MinIO Console: http://localhost:9001
+ - Airflow Web UI: http://localhost:8081
+ - PostgreSQL: localhost:5432
+ - Nessie: http://localhost:19120
+ - Trino: http://localhost:8080
+ - Superset: http://localhost:8088
