@@ -13,7 +13,10 @@ This repository provides a comprehensive environment to learn and practice moder
 - **MinIO**: Learn about object storage and how it integrates with modern data pipelines, serving as your S3-compatible storage layer.
 - **PostgreSQL**: Use a relational database for metadata management and storing structured data.
 
+<img width="197" alt="Screenshot 2024-12-24 at 1 26 38 PM" src="https://github.com/user-attachments/assets/020c3146-6ad1-4f4c-af76-4d670ff0fc49" />
+
 ---
+
 
 ## Table of Contents
 - [Overview](#overview)
