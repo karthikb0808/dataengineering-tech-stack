@@ -2,7 +2,7 @@ FROM apache/superset:4.1.1
 
 USER root
 
-COPY docker-init.sh /app/docker-init.sh
+COPY ./docker-init.sh /app/docker-init.sh
 COPY predefined-database.json /app/predefined-database.json
 
 RUN pip install sqlalchemy-trino && \
