@@ -107,3 +107,35 @@ This repository provides a comprehensive environment to learn and practice moder
  - Nessie: http://localhost:19120
  - Trino: http://localhost:8080
  - Superset: http://localhost:8088
+
+---
+
+## Learning Objectives for Each Tool
+
+### Spark
+- **Understand how distributed computing works**: Learn how Apache Spark processes large datasets in parallel across multiple nodes, making it an essential tool for handling big data efficiently.
+- **Write transformations for ETL pipelines on large-scale datasets**: Build and execute transformations that extract, clean, and load data into storage or analytics layers.
+
+### Iceberg
+- **Work with Iceberg tables for schema evolution and time travel**: Gain experience managing dataset changes over time without breaking downstream dependencies.
+- **Manage partitions for optimized querying**: Use Iceberg's built-in partitioning to improve query performance on large datasets.
+
+### Project Nessie
+- **Learn to implement Git-like workflows for datasets**: Track changes, create branches, and roll back changes to maintain consistency in your data pipelines.
+- **Manage branches, tags, and commits for Iceberg tables**: Use Nessie to version-control datasets and simplify collaboration across teams.
+
+### Airflow
+- **Build workflows that orchestrate Spark, MinIO, and PostgreSQL**: Automate complex data workflows involving multiple tools and dependencies.
+- **Monitor and troubleshoot DAG executions**: Learn to manage and debug Directed Acyclic Graphs (DAGs) for efficient task scheduling.
+
+### Trino
+- **Query heterogeneous data sources (e.g., MinIO, PostgreSQL) in a unified SQL layer**: Use Trino to query structured and unstructured data seamlessly across multiple backends.
+- **Analyze Iceberg tables and large datasets efficiently**: Leverage Trino's SQL engine to perform ad hoc analysis or integrate with BI tools.
+
+### Superset
+- **Build visualizations and interactive dashboards**: Create engaging charts and dashboards to derive insights from your data.
+- **Connect Superset to Trino and PostgreSQL for real-time insights**: Visualize data in near real-time to support decision-making.
+
+### MinIO
+- **Store and retrieve files in an S3-compatible system**: Manage object storage for raw and processed data in a local or cloud environment.
+- **Integrate MinIO with Spark and Airflow pipelines**: Use MinIO as a central hub for ingesting, transforming, and exporting data in your workflows.
