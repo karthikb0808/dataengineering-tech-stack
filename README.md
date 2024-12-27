@@ -10,7 +10,7 @@ This repository provides a comprehensive environment to learn and practice moder
 - **Apache Airflow**: Master workflow orchestration and scheduling for complex ETL/ELT pipelines.
 - **Trino**: Query your data from multiple sources (MinIO, PostgreSQL, Iceberg) with a fast federated SQL engine.
 - **Apache Superset**: Create interactive dashboards and visualizations to analyze and present your data.
-- **MinIO**: Learn about object storage and how it integrates with modern data pipelines, serving as your S3-compatible storage layer.
+- **MinIO**: Learn about object storage and how it integrates with modern data pipelines, serving as your S3-compatible storage layer. (Using this architecture for a NYC Taxi Data Project: [https://lnkd.in/gWMj6RS7](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). You'll be seeing the bucket name as "nyc-project")
 - **PostgreSQL**: Use a relational database for metadata management and storing structured data.
 
 ![ED91D8F6-A9E6-4B99-89DA-1849864E5C39](https://github.com/user-attachments/assets/116bae69-e15b-47a8-8003-417d111cf6c9)
