@@ -4,7 +4,7 @@ FROM apache/superset:4.1.1
 USER root
 
 # Set the working directory (optional, just for organizational purposes)
-COPY ./docker-init.sh /app/docker-init.sh
+COPY ./superset-init.sh /app/superset-init.sh
 # COPY trino connections for superset
 COPY predefined-database.json /app/predefined-database.json
 
