@@ -4,6 +4,7 @@ WORKDIR /data_project/ingestion
 
 COPY requirements.txt .
 
+# Install the required packages & Jupyter
 RUN pip install --no-cache-dir -r requirements.txt \
     && pip install --no-cache-dir jupyter 
 

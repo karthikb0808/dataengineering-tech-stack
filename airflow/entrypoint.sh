@@ -2,8 +2,8 @@
 
 # Then initialize or upgrade the Airflow DB
 airflow db init
-# or airflow db upgrade
 
+# Create a default admin user
 airflow users create \
     --username admin \
     --password admin \

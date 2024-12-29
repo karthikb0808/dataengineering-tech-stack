@@ -1,4 +1,6 @@
 services:
+
+  # Container for Storage (Minio)
   object-storage:
     build:
       context: ./minio_data
@@ -20,6 +22,7 @@ services:
       timeout: 5s
       retries: 5
 
+  # Container for Orchestration (Airflow)
   airflow:
     build: 
       context: ./airflow
@@ -58,6 +61,7 @@ services:
       postgres:
         condition: service_healthy
 
+  # Container for Extracting Data (Web Scraping)
   extraction:
     build:
       context: ./ingestion
@@ -77,6 +81,7 @@ services:
       airflow:
         condition: service_healthy
 
+  # Container for Metadata (Postgres)
   postgres:
     build: 
       context: ./postgres
@@ -95,6 +100,7 @@ services:
       retries: 5
       start_period: 30s
 
+  # Container for Data Catalog (Nessie)
   nessie:
     image: ghcr.io/projectnessie/nessie:0.100.2-java
     container_name: nessie
@@ -119,6 +125,7 @@ services:
       retries: 5
       start_period: 30s
 
+  # Container for Transformations (Spark)
   transformation:
     build:
       context: ./transformation
@@ -145,6 +152,7 @@ services:
       airflow:
         condition: service_healthy
 
+  # Container for Query Engine (Trino)
   trino:
     image: trinodb/trino:467
     container_name: trino
@@ -173,6 +181,7 @@ services:
       timeout: 5s
       retries: 5
 
+  # Container for Visualization (Superset)
   superset:
     build:
       context: ./superset
