@@ -13,7 +13,9 @@ This repository provides a comprehensive environment to learn and practice moder
 - **MinIO**: Learn about object storage and how it integrates with modern data pipelines, serving as your S3-compatible storage layer. (Using this architecture for a NYC Taxi Data Project: [https://lnkd.in/gWMj6RS7](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page). You'll be seeing the bucket name as "nyc-project")
 - **PostgreSQL**: Use a relational database for metadata management and storing structured data.
 
-<img width="611" alt="image" src="https://github.com/user-attachments/assets/b7117963-8ad1-4ba5-a1b0-164d7fda39f4" />
+<p align='center'>
+  <img width="611" alt="image" src="https://github.com/user-attachments/assets/b7117963-8ad1-4ba5-a1b0-164d7fda39f4" />
+</p>
 
 ---
 
