@@ -14,7 +14,7 @@ This repository provides a comprehensive environment to learn and practice moder
 - **PostgreSQL**: Use a relational database for metadata management and storing structured data.
 
 <p align='center'>
-  <img width="611" alt="image" src="https://github.com/user-attachments/assets/b7117963-8ad1-4ba5-a1b0-164d7fda39f4" />
+  ![image](https://github.com/user-attachments/assets/28671d26-1203-4867-8db7-812bc7b510ed)
 </p>
 
 ---
